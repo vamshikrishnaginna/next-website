@@ -1710,7 +1710,7 @@
     margin-top: 0 !important;
   }
   .crake-nav nav .navbar-brand img {
-    max-width: 80px !important;
+    max-width: 150px !important;
   }
   .crake-nav nav .navbar-nav li .dropdown_menu {
     width: 170px !important;
@@ -1985,7 +1985,7 @@
             box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1);
   }
   .crake-nav nav .navbar-brand img {
-    max-width: 90px;
+    max-width: 150px;
   }
   .others-option {
     display: none;

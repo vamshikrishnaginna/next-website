@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import Link from '../../utils/ActiveLink';
 import SideDrawer from './SideDrawer';
 import SearchForm from './SearchForm';
+import dsclogo from '../../images/dsclogo.png'
 
 class Navbar extends React.Component {
     _isMounted = false;
@@ -58,10 +59,10 @@ class Navbar extends React.Component {
         let { products } = this.props;
 
         let layOutCls = 'marketing-navbar';
-        let logo = require('../../images/logo2.png');
+        let logo = require('../../images/test_logo.png');
         if (pathname === '/digital-marketing'){
             layOutCls = 'marketing-navbar';
-            logo = require('../../images/logo2.png');
+            logo = require('../../images/dsclogo.png');
         }
 
         const { collapsed } = this.state;
@@ -76,7 +77,7 @@ class Navbar extends React.Component {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link href="/saas">
                                     <a className="navbar-brand">
-                                        <img src={logo} alt="logo" />
+                                        <img src={dsclogo} alt="logo" />
                                     </a>
                                 </Link>
 

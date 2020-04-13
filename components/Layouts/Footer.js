@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import dscLogo from "../../images/dsclogo.png"
 
 class Footer extends React.Component {
     render() {
@@ -10,7 +11,7 @@ class Footer extends React.Component {
                             <div className="single-footer-widget">
                                 <Link href="#">
                                     <a className="logo">
-                                        <img src={require('../../images/logo2.png')} alt="logo2" />
+                                        <img src={dscLogo} alt="logo" />
                                     </a>
                                 </Link>
                                 <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project individual.</p>

@@ -7,7 +7,7 @@ class Banner extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <h2>Our Awesome Projects</h2>
+                            <h2>Our Events</h2>
                         </div>
                     </div>
                 </div>

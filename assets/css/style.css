@@ -746,11 +746,11 @@ Navbar CSS
 }
 
 .crake-nav.marketing-navbar nav .navbar-nav li a::before {
-  background: #13c4a1;
+  background: #4186f7;
 }
 
 .crake-nav.marketing-navbar nav .navbar-nav li a:hover, .crake-nav.marketing-navbar nav .navbar-nav li a:focus, .crake-nav.marketing-navbar nav .navbar-nav li a.active {
-  color: #13c4a1 !important;
+  color: #4186f7 !important;
 }
 
 .crake-nav.marketing-navbar nav .navbar-nav li .side-menu .bar-1 {
@@ -5924,7 +5924,7 @@ Page Title CSS
 =================================================*/
 .page-title-banner {
   position: relative;
-  background: #13c4a1;
+  background: #ffffff;
   z-index: 1;
   padding-top: 200px;
   padding-bottom: 120px;
@@ -5935,7 +5935,7 @@ Page Title CSS
   margin: 0;
   font-size: 35px;
   font-weight: 700;
-  color: #ffffff;
+  color: #4186f7;
 }
 
 .page-title-banner .bubble-animate .circle {

@@ -7275,3 +7275,26 @@ Back To Top CSS
   margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.social-icons-list ul.social-list li {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.social-icons-list ul.social-list li a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 50%;
+  color: #818992;
+  border: 1px solid #818992;
+}
+
+.social-icons-list ul.social-list li a:hover, .social-icons-list ul.social-list li a:focus {
+  color: #ffffff;
+  background: #13c4a1;
+  border-color: #13c4a1;
+}

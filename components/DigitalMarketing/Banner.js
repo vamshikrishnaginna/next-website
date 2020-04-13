@@ -41,13 +41,15 @@ class Banner extends React.Component {
                                             <p>DSC VJIT is one of the different Developer Students Club throughout
                                                 India.
                                                 Our main goal at DSC VJIT is to increase the skills, collaboration among
-                                                students and to create a community.</p>
+                                                students and to create a community which help solve the different issues
+                                                which are faced around our locality.</p>
 
                                             <Link href="#">
                                                 <a className="btn btn-primary">Join DSC VJIT</a>
                                             </Link>
-                                            <div className="sidebar-modal-widget">
-                                                <ul className="social-list">
+
+                                            <div className="social-icons-list" style={{marginTop: '15px'}}>
+                                                <ul className="social-list" style={{paddingLeft: "0px"}}>
                                                     <li>
                                                         <a href="https://facebook.com"><i className="icofont-facebook"/></a>
                                                     </li>
@@ -59,8 +61,7 @@ class Banner extends React.Component {
                                                         <a href="https://twitter.com"><i className="icofont-instagram"/></a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://twitter.com"> <i
-                                                            className="icofont-gtihub"/></a>
+                                                        <a href="https://github.com" blank><i className="icofont-github"/></a>
                                                     </li>
                                                 </ul>
                                             </div>

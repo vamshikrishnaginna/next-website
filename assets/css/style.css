@@ -5188,7 +5188,7 @@ Subscribe CSS
 }
 
 .bubble-animate .circle {
-  background: #13c4a1;
+  background: #4186f7;
   bottom: 0;
   position: absolute;
   border-radius: 50%;
@@ -7295,6 +7295,6 @@ Back To Top CSS
 
 .social-icons-list ul.social-list li a:hover, .social-icons-list ul.social-list li a:focus {
   color: #ffffff;
-  background: #13c4a1;
-  border-color: #13c4a1;
+  background: #4186f7;
+  border-color: #4186f7;
 }

@@ -70,7 +70,7 @@ class Navbar extends React.Component {
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         
         return (
-            <React.Fragment>
+            <>
                 <header id="header">
                     <div id="navbar" className={`crake-nav ${layOutCls}`}>
                         <div className="container">
@@ -400,36 +400,6 @@ class Navbar extends React.Component {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="mr-auto others-option">
-                                    <ul className="navbar-nav">
-                                        <li className="nav-item cart-wrapper">
-                                            <Link activeClassName="active" href="/cart">
-                                                <a>
-                                                    <i className="icofont-shopping-cart cart-icon"></i>
-
-                                                    <span>{products.length}</span>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li className="header-search-box">
-                                            <Link activeClassName="active" href="#">
-                                                <a 
-                                                    onClick={e => {e.preventDefault();this.handleSearchForm();}}
-                                                    title="Search"
-                                                >
-                                                    <i className="icofont-search-2"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li onClick={this.handleDrawer}>
-                                            <div className="side-menu">
-                                                <span className="bar-1"></span>
-                                                <span className="bar-2"></span>
-                                                <span className="bar-3"></span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
                             </nav>
                         </div> 
                     </div>
@@ -437,7 +407,7 @@ class Navbar extends React.Component {
 
                 {this.state.drawer ? <SideDrawer onClick={this.handleDrawer} /> : ''}
                 {this.state.searchForm ? <SearchForm onClick={this.handleSearchForm} /> : ''}
-            </React.Fragment>
+            </>
         );
     }
 }

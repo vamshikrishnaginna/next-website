@@ -124,12 +124,12 @@ button {
 /* btn btn-primary */
 .btn-primary {
   color: #ffffff;
-  background-color: #FF8A73;
+  background-color: #4284f7;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #ffffff;
-  background: #13c4a1;
+  background: #4284f7;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
@@ -146,7 +146,7 @@ button {
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary .show > .btn-primary.dropdown-toggle {
   color: #ffffff;
-  background: #13c4a1;
+  background: #4284f7;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
@@ -159,7 +159,7 @@ button {
 }
 
 .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary:disabled:hover, .btn-primary:disabled:focus {
-  background: #13c4a1;
+  background: #1F45FC;
 }
 
 .btn {
@@ -185,7 +185,7 @@ button {
   width: 0;
   -webkit-transition: .4s;
   transition: .4s;
-  background: #13c4a1;
+  background: #1F45FC;
   z-index: -1;
   border-radius: 5px;
 }
@@ -1531,20 +1531,20 @@ Main Banner CSS
 }
 
 .main-banner.marketing-home .hero-content .video-btn:hover i, .main-banner.marketing-home .hero-content .video-btn:focus i {
-  color: #13c4a1;
+  color: #1F45FC;
 }
 
 .main-banner.marketing-home .hero-content .btn:hover::after, .main-banner.marketing-home .hero-content .btn:hover::before {
-  background: #13c4a1;
+  background: #1F45FC;
 }
 
 .main-banner.marketing-home .hero-content .btn-primary:not(:disabled):not(.disabled).active, .main-banner.marketing-home .hero-content .btn-primary:not(:disabled):not(.disabled):active, .main-banner.marketing-home .hero-content .btn-primary .show > .btn-primary.dropdown-toggle {
-  background: #13c4a1;
+  background: #1F45FC;
   color: #ffffff;
 }
 
 .main-banner.marketing-home .hero-content .btn-primary:hover, .main-banner.marketing-home .hero-content .btn-primary:focus {
-  background: #13c4a1;
+  background: #1F45FC;
   color: #ffffff;
 }
 

@@ -21,9 +21,7 @@ class Services extends Component {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
-                                <div className="icon">
-                                    <img src={javascriptLogo} alt="javascript"/>
-                                </div>
+                                <img src={javascriptLogo} alt="javascript"/>
                                 <h3>JavaScript</h3>
                                 <p>Sub Content</p>
                             </div>

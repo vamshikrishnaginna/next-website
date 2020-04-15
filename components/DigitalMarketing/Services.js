@@ -6,9 +6,9 @@ class Services extends Component {
             <section className="services-area ptb-100 bg-gray">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Our Services</h2>
+                        <h2>Technologies</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>These are some of the technolgies we mainly focus on right now. If you cant find the technology you love. Click here!!!</p>
                     </div>
                     
                     <div className="row">
@@ -17,8 +17,8 @@ class Services extends Component {
                                 <div className="icon">
                                     <i className="icofont-pay"></i>
                                 </div>
-                                <h3>Search Strategy</h3>
-                                <p>Well at public scho cheeky bugger grub burke.</p>
+                                <h3>JavaScript</h3>
+                                <p>Sub Content</p>
                             </div>
                         </div>
 
@@ -27,8 +27,8 @@ class Services extends Component {
                                 <div className="icon">
                                     <i className="icofont-music-note"></i>
                                 </div>
-                                <h3>Onsite SEO</h3>
-                                <p>Well at public scho cheeky bugger grub burke.</p>
+                                <h3>Android App Development</h3>
+                                <p>Sub Content</p>
                             </div>
                         </div>
 
@@ -37,8 +37,8 @@ class Services extends Component {
                                 <div className="icon">
                                     <i className="icofont-optic"></i>
                                 </div>
-                                <h3>Keyword Targeting</h3>
-                                <p>Well at public scho cheeky bugger grub burke.</p>
+                                <h3>Google Cloud</h3>
+                                <p>Sub Content</p>
                             </div>
                         </div>
 
@@ -47,8 +47,8 @@ class Services extends Component {
                                 <div className="icon">
                                     <i className="icofont-pie-chart"></i>
                                 </div>
-                                <h3>Link Building</h3>
-                                <p>Well at public scho cheeky bugger grub burke.</p>
+                                <h3>React JS</h3>
+                                <p>Sub Content</p>
                             </div>
                         </div>
 
@@ -57,8 +57,8 @@ class Services extends Component {
                                 <div className="icon">
                                     <i className="icofont-deviantart"></i>
                                 </div>
-                                <h3>CPA Marketing</h3>
-                                <p>Well at public scho cheeky bugger grub burke.</p>
+                                <h3>Python</h3>
+                                <p>Sub Content</p>
                             </div>
                         </div>
 
@@ -67,8 +67,8 @@ class Services extends Component {
                                 <div className="icon">
                                     <i className="icofont-chart-pie-alt"></i>
                                 </div>
-                                <h3>Report Analysis</h3>
-                                <p>Well at public scho cheeky bugger grub burke.</p>
+                                <h3>Machine Learning</h3>
+                                <p>Sub Content</p>
                             </div>
                         </div>
                     </div>

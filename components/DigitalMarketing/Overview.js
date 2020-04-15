@@ -13,20 +13,16 @@ class Overview extends Component {
                             </div>
 
                             <div className="col-lg-6 col-md-6 overview-content">
-                                <div className="icon">
-                                    <i className="icofont-power"></i>
+                                <div className="features-holder-content">
+                                    <div className="section-title">
+                                        <h2>What is Developer Student Clubs</h2>
+                                        <div className="bar"></div>
+                                        <p>Developer Student Clubs are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.</p>
+                                    </div>
+                                    <Link href="#">
+                                        <a className="btn btn-primary">Read More</a>
+                                    </Link>
                                 </div>
-                                <h3>Social Media Marketing</h3>
-                                <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project to an individual person's workload.</p>
-
-                                <ul>
-                                    <li>Unimited Video Call</li>
-                                    <li>Add Favourite contact</li>
-                                    <li>Camera Filter</li>
-                                </ul>
-                                <Link href="#">
-                                    <a className="btn btn-primary">Read More</a>
-                                </Link>
                             </div>
                         </div>
                     </div>
@@ -34,20 +30,16 @@ class Overview extends Component {
                     <div className="overview-box">
                         <div className="row h-100 justify-content-center align-items-center">
                             <div className="col-lg-6 col-md-6 overview-content">
-                                <div className="icon">
-                                    <i className="icofont-share-alt"></i>
+                                <div className="features-holder-content">
+                                    <div className="section-title">
+                                        <h2>Why Join Developer Student Clubs VJIT</h2>
+                                        <div className="bar"></div>
+                                        <p>Developer Student Clubs are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.</p>
+                                    </div>
+                                    <Link href="#">
+                                        <a className="btn btn-primary">Join DSC VJIT</a>
+                                    </Link>
                                 </div>
-                                <h3>Email Marketing</h3>
-                                <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project to an individual person's workload.</p>
-
-                                <ul>
-                                    <li>Unimited Video Call</li>
-                                    <li>Add Favourite contact</li>
-                                    <li>Camera Filter</li>
-                                </ul>
-                                <Link href="#">
-                                    <a className="btn btn-primary">Read More</a>
-                                </Link>
                             </div>
 
                             <div className="col-lg-6 col-md-6 overview-img">
@@ -63,48 +55,20 @@ class Overview extends Component {
                             </div>
 
                             <div className="col-lg-6 col-md-6 overview-content">
-                                <div className="icon">
-                                    <i className="icofont-ui-messaging"></i>
+                                <div className="features-holder-content">
+                                    <div className="section-title">
+                                        <h2>Some Another Catchy Title ? </h2>
+                                        <div className="bar"></div>
+                                        <p>Catchy Content</p>
+                                    </div>
+                                    <Link href="#">
+                                        <a className="btn btn-primary">Catchy Button  :)</a>
+                                    </Link>
                                 </div>
-                                <h3>Paid Advertising</h3>
-                                <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project to an individual person's workload.</p>
-
-                                <ul>
-                                    <li>Unimited Video Call</li>
-                                    <li>Add Favourite contact</li>
-                                    <li>Camera Filter</li>
-                                </ul>
-                                <Link href="#">
-                                    <a className="btn btn-primary">Read More</a>
-                                </Link>
                             </div>
                         </div>
                     </div>
 
-                    <div className="overview-box">
-                        <div className="row h-100 justify-content-center align-items-center">
-                            <div className="col-lg-6 col-md-6 overview-content">
-                                <div className="icon">
-                                    <i className="icofont-users-social"></i>
-                                </div>
-                                <h3>We provide proffesional staff</h3>
-                                <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project to an individual person's workload.</p>
-
-                                <ul>
-                                    <li>Unimited Video Call</li>
-                                    <li>Add Favourite contact</li>
-                                    <li>Camera Filter</li>
-                                </ul>
-                                <Link href="#">
-                                    <a className="btn btn-primary">Read More</a>
-                                </Link>
-                            </div>
-
-                            <div className="col-lg-6 col-md-6 overview-img">
-                                <img src={require('../../images/marketing-3.png')} alt="image" />
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <div className="shape7"><img src={require('../../images/shape7.png')} alt="shape" /></div>

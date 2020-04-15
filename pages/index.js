@@ -23,9 +23,9 @@ class Index extends React.Component {
             <React.Fragment>
                 <Navbar />
                 <Banner />
-                <Features />
-                <Services />
                 <Overview />
+                <Services />
+                <Features />
                 <Join />
                 <AnalysisForm />
                 <Funfact />

@@ -14,7 +14,7 @@ class Services extends Component {
                     <div className="section-title">
                         <h2>Technologies</h2>
                         <div className="bar"></div>
-                        <p>These are some of the technolgies we mainly focus on right now. If you cant find the
+                        <p>These are some technolgies we mainly focus on right now. If you cant find the
                             technology you love. Click here!!!</p>
                     </div>
 

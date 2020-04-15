@@ -3564,7 +3564,7 @@ Project CSS
 .single-project .project-content span {
     display: block;
     margin-bottom: 10px;
-    color: #FF8A73;
+    color: #ea4335;
     font-size: 15px;
 }
 
@@ -3618,7 +3618,8 @@ Project CSS
 
 .single-project:hover .project-image::before {
     visibility: visible;
-    opacity: .8;
+    opacity: .1;
+    background-color: #4284f7;
     -webkit-transform: scale(1);
     transform: scale(1);
 }

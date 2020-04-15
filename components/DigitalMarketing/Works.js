@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
 
 const options = { 
-    autoplay: true,
+    autoplay: false,
     nav: true,
     loop:true,
     mouseDrag: true,
@@ -58,9 +58,9 @@ class Works extends Component {
             <section className="project-area ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Recent Work</h2>
+                        <h2>Recent Projects</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Catchy sub content for the recent projects -  These are the different projects for developed</p>
                     </div>
                 </div>
 
@@ -72,23 +72,14 @@ class Works extends Component {
                         <div className="col-lg-12">
                             <div className="single-project">
                                 <div className="project-image">
-                                    <img src={require('../../images/work-img1.jpg')} alt="work" />
-
-                                    <Link href="#">
-                                        <a 
-                                            className="popup-btn"
-                                            onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true })}}
-                                        >
-                                            <i className="icofont-plus"></i>
-                                        </a>
-                                    </Link>
+                                    <img src={require('../../images/dsc-logo-project.png')} alt="work" />
                                 </div>
 
                                 <div className="project-content">
-                                    <span>Digital</span>
+                                    <span>Category</span>
                                     <h3>
                                         <Link href="#">
-                                            <a>Network Marketing</a>
+                                            <a>Project 1</a>
                                         </Link>
                                     </h3>
                                 </div>
@@ -98,104 +89,76 @@ class Works extends Component {
                         <div className="col-lg-12">
                             <div className="single-project">
                                 <div className="project-image">
-                                    <img src={require('../../images/work-img2.jpg')} alt="work" />
-
-                                    <Link href="#">
-                                        <a 
-                                            className="popup-btn"
-                                            onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true })}}
-                                        >
-                                            <i className="icofont-plus"></i>
-                                        </a>
-                                    </Link>
+                                    <img src={require('../../images/dsc-logo-project.png')} alt="work" />
                                 </div>
 
                                 <div className="project-content">
-                                    <span>Digital</span>
+                                    <span>Category</span>
                                     <h3>
                                         <Link href="#">
-                                            <a>Network Marketing</a>
+                                            <a>Project 2</a>
+                                        </Link>
+                                    </h3>
+                                </div>                            </div>
+                        </div>
+
+                        <div className="col-lg-12">
+                            <div className="single-project">
+                                <div className="project-image">
+                                    <img src={require('../../images/dsc-logo-project.png')} alt="work" />
+                                </div>
+
+                                <div className="project-content">
+                                    <span>Category</span>
+                                    <h3>
+                                        <Link href="#">
+                                            <a>Project 3</a>
                                         </Link>
                                     </h3>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-12">
-                            <div className="single-project">
-                                <div className="project-image">
-                                    <img src={require('../../images/work-img3.jpg')} alt="work" />
-
-                                    <Link href="#">
-                                        <a 
-                                            className="popup-btn"
-                                            onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true })}}
-                                        >
-                                            <i className="icofont-plus"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="project-content">
-                                    <span>Digital</span>
-                                    <h3>
-                                        <Link href="#">
-                                            <a>Network Marketing</a>
-                                        </Link>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        {isOpenImage && (
-                            <Lightbox
-                                mainSrc={images[photoIndex]}
-                                nextSrc={images[(photoIndex + 1) % images.length]}
-                                prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-                                onCloseRequest={() => this.setState({ isOpenImage: false })}
-                                onMovePrevRequest={() =>
-                                this.setState({
-                                    photoIndex: (photoIndex + images.length - 1) % images.length,
-                                })
-                                }
-                                onMoveNextRequest={() =>
-                                    this.setState({
-                                        photoIndex: (photoIndex + 1) % images.length,
-                                    })
-                                }
-                            />
-                        )}
+                        {/*{isOpenImage && (*/}
+                        {/*    <Lightbox*/}
+                        {/*        mainSrc={images[photoIndex]}*/}
+                        {/*        nextSrc={images[(photoIndex + 1) % images.length]}*/}
+                        {/*        prevSrc={images[(photoIndex + images.length - 1) % images.length]}*/}
+                        {/*        onCloseRequest={() => this.setState({ isOpenImage: false })}*/}
+                        {/*        onMovePrevRequest={() =>*/}
+                        {/*        this.setState({*/}
+                        {/*            photoIndex: (photoIndex + images.length - 1) % images.length,*/}
+                        {/*        })*/}
+                        {/*        }*/}
+                        {/*        onMoveNextRequest={() =>*/}
+                        {/*            this.setState({*/}
+                        {/*                photoIndex: (photoIndex + 1) % images.length,*/}
+                        {/*            })*/}
+                        {/*        }*/}
+                        {/*    />*/}
+                        {/*)}*/}
 
                         <div className="col-lg-12">
                             <div className="single-project">
                                 <div className="project-image">
-                                    <img src={require('../../images/work-img4.jpg')} alt="work" />
-
-                                    <Link href="#">
-                                        <a 
-                                            className="popup-btn"
-                                            onClick={e => {e.preventDefault(); this.setState({ isOpenImage: true })}}
-                                        >
-                                            <i className="icofont-plus"></i>
-                                        </a>
-                                    </Link>
+                                    <img src={require('../../images/dsc-logo-project.png')} alt="work" />
                                 </div>
-
                                 <div className="project-content">
-                                    <span>Digital</span>
+                                    <span>Category</span>
                                     <h3>
                                         <Link href="#">
-                                            <a>Network Marketing</a>
+                                            <a>Project 4</a>
                                         </Link>
                                     </h3>
                                 </div>
+
                             </div>
                         </div>
 
                         <div className="col-lg-12">
                             <div className="single-project">
                                 <div className="project-image">
-                                    <img src={require('../../images/work-img5.jpg')} alt="work" />
+                                    <img src={require('../../images/dsc-logo-project.png')} alt="work" />
 
                                     <Link href="#">
                                         <a 
@@ -208,10 +171,10 @@ class Works extends Component {
                                 </div>
 
                                 <div className="project-content">
-                                    <span>Digital</span>
+                                    <span>Category</span>
                                     <h3>
                                         <Link href="#">
-                                            <a>Network Marketing</a>
+                                            <a>Project 5</a>
                                         </Link>
                                     </h3>
                                 </div>
@@ -221,7 +184,7 @@ class Works extends Component {
                         <div className="col-lg-12">
                             <div className="single-project">
                                 <div className="project-image">
-                                    <img src={require('../../images/work-img6.jpg')} alt="work" />
+                                    <img src={require('../../images/dsc-logo-project.png')} alt="work" />
 
                                     <Link href="#">
                                         <a 
@@ -234,10 +197,10 @@ class Works extends Component {
                                 </div>
 
                                 <div className="project-content">
-                                    <span>Digital</span>
+                                    <span>Category</span>
                                     <h3>
                                         <Link href="#">
-                                            <a>Network Marketing</a>
+                                            <a>Project 6</a>
                                         </Link>
                                     </h3>
                                 </div>

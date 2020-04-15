@@ -25,13 +25,10 @@ class Index extends React.Component {
                 <Banner />
                 <Overview />
                 <Services />
-                <Features />
-                <Join />
                 <AnalysisForm />
                 <Funfact />
                 <Works />
                 <Team />
-                <Pricing />
                 <Blog />
                 <Feedback />
                 <GetStarted />

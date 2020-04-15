@@ -129,7 +129,7 @@ button {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #ffffff;
-  background: #4284f7;
+  background: #1F45FC;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
@@ -146,7 +146,7 @@ button {
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary .show > .btn-primary.dropdown-toggle {
   color: #ffffff;
-  background: #4284f7;
+  background: #1F45FC;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
@@ -226,7 +226,7 @@ button {
 .section-title .bar {
   height: 4px;
   width: 85px;
-  background: #13c4a1;
+  background: #4284f7;
   margin: 20px auto 25px;
   position: relative;
   border-radius: 5px;

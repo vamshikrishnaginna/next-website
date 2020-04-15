@@ -7180,7 +7180,7 @@ Back To Top CSS
 .back-to-top::after {
     bottom: 0;
     z-index: 5;
-    border-bottom: 20px solid #13c4a1;
+    border-bottom: 20px solid #4284f7;
 }
 
 .back-to-top:hover, .back-to-top:focus {

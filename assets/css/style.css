@@ -2426,7 +2426,7 @@ Services CSS
     background: #edf5ff;
     border-radius: 50%;
     font-size: 25px;
-    color: #13c4a1;
+    color: #4284f7;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -2446,7 +2446,7 @@ Services CSS
 }
 
 .single-services:hover .icon {
-    background: #13c4a1;
+    background: #4284f7;
     color: #ffffff;
 }
 

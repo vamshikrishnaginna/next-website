@@ -1,4 +1,10 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import javascriptLogo from '../../images/icons/javascript-logo.svg'
+import androidLogo from '../../images/icons/android-logo.svg'
+import cloudLogo from '../../images/icons/cloud-logo.svg'
+import reactLogo from '../../images/icons/react-logo.svg'
+import machineLogo from '../../images/icons/machine-learning-logo.svg'
+import pythonLogo from '../../images/icons/python-logo.svg'
 
 class Services extends Component {
     render() {
@@ -8,14 +14,15 @@ class Services extends Component {
                     <div className="section-title">
                         <h2>Technologies</h2>
                         <div className="bar"></div>
-                        <p>These are some of the technolgies we mainly focus on right now. If you cant find the technology you love. Click here!!!</p>
+                        <p>These are some of the technolgies we mainly focus on right now. If you cant find the
+                            technology you love. Click here!!!</p>
                     </div>
-                    
+
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
                                 <div className="icon">
-                                    <i className="icofont-pay"></i>
+                                    <img src={javascriptLogo} alt="javascript"/>
                                 </div>
                                 <h3>JavaScript</h3>
                                 <p>Sub Content</p>
@@ -24,9 +31,8 @@ class Services extends Component {
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
-                                <div className="icon">
-                                    <i className="icofont-music-note"></i>
-                                </div>
+                                <img src={androidLogo} alt="android"/>
+
                                 <h3>Android App Development</h3>
                                 <p>Sub Content</p>
                             </div>
@@ -34,9 +40,8 @@ class Services extends Component {
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
-                                <div className="icon">
-                                    <i className="icofont-optic"></i>
-                                </div>
+                                <img src={cloudLogo} alt="cloud logo"/>
+
                                 <h3>Google Cloud</h3>
                                 <p>Sub Content</p>
                             </div>
@@ -44,9 +49,8 @@ class Services extends Component {
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
-                                <div className="icon">
-                                    <i className="icofont-pie-chart"></i>
-                                </div>
+                                <img src={reactLogo} alt="react"/>
+
                                 <h3>React JS</h3>
                                 <p>Sub Content</p>
                             </div>
@@ -54,9 +58,8 @@ class Services extends Component {
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
-                                <div className="icon">
-                                    <i className="icofont-deviantart"></i>
-                                </div>
+                                <img src={pythonLogo} alt="python"/>
+
                                 <h3>Python</h3>
                                 <p>Sub Content</p>
                             </div>
@@ -64,9 +67,8 @@ class Services extends Component {
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-services">
-                                <div className="icon">
-                                    <i className="icofont-chart-pie-alt"></i>
-                                </div>
+                                <img src={machineLogo} alt="machine"/>
+
                                 <h3>Machine Learning</h3>
                                 <p>Sub Content</p>
                             </div>

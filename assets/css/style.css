@@ -4168,8 +4168,8 @@ Team CSS
 
 .single-team-member .team-content ul li a:hover {
     color: #ffffff;
-    background: #13c4a1;
-    border-color: #13c4a1;
+    background: #4284f7;
+    border-color: #4284f7;
 }
 
 .single-team-member .team-content ul li a.facebook {
@@ -6013,14 +6013,14 @@ Pagination CSS
 
 .pagination-area ul .page-item .page-link:hover, .pagination-area ul .page-item .page-link:focus {
     color: #ffffff;
-    background-color: #13c4a1;
+    background-color: #4284f7;
     -webkit-box-shadow: unset;
     box-shadow: unset;
 }
 
 .pagination-area ul .page-item.active .page-link {
     color: #ffffff;
-    background-color: #13c4a1;
+    background-color: #4284f7;
 }
 
 /*================================================

@@ -8,7 +8,7 @@ class Platform extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 col-md-12">
-                            <h2>Interact With Your Users On Every Single Platform</h2>
+                            <h2>Connect with us on these Social Media</h2>
                         </div>
 
                         <div className="col-lg-3 col-md-6">
@@ -29,7 +29,7 @@ class Platform extends Component {
                                 <a className="box">
                                     <img src={require('../../images/slack.png')} alt="mailchimp" />
 
-                                    <h3>Slack</h3>
+                                    <h3>F</h3>
                                     <span>Messaging</span>
 
                                     <i className="icofont-bubble-right"></i>

@@ -1,7 +1,8 @@
 import Link from 'next/link';
+import {Component} from 'react';
 import dscLogo from "../../images/dsclogo.png"
 
-class Footer extends React.Component {
+class Footer extends Component {
     render() {
         return (
             <footer className="footer-area ptb-100 pb-0 bg-image">
@@ -15,7 +16,6 @@ class Footer extends React.Component {
                                     </a>
                                 </Link>
                                 <p>Someone needs to write the content here</p>
-
                                 <ul className="social-list">
                                     <li>
                                         <Link href="#">
@@ -45,7 +45,7 @@ class Footer extends React.Component {
                             <section className="subscribe-area">
                                 <div className="container">
                                     <h2>Subscribe to newsletter</h2>
-                                    <div className="bar" style={{marginTop:'10px',marginBottom:'10px'}}/>
+                                    <div className="bar" style={{marginTop: '10px', marginBottom: '10px'}}/>
                                     <p>Provide the newsletter content here</p>
 
                                     <form className="newsletter-form" data-toggle="validator">
@@ -56,11 +56,7 @@ class Footer extends React.Component {
                                     </form>
                                 </div>
                             </section>
-
                         </div>
-
-
-
                     </div>
                 </div>
 
@@ -69,7 +65,7 @@ class Footer extends React.Component {
                         <div className="row h-100 justify-content-center align-items-center">
                             <div className="col-lg-12 col-md-12"
                                  style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                                <h6>Developed with ❤ by DSC VJIT Team</h6>
+                                <h5>Developed with ❤ by DSC VJIT Team</h5>
                             </div>
                         </div>
                     </div>

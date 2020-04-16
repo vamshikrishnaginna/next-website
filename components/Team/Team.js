@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import dscLogoProject from '../../images/dsc-logo-project.png'
 
 class Team extends Component {
     render() {
@@ -9,11 +10,11 @@ class Team extends Component {
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div className="single-team-member">
-                                <img src={require('../../images/team-img1.jpg')} alt="team" />
+                                <img src={dscLogoProject} alt="team" />
 
                                 <div className="team-content">
-                                    <h3>John Doe</h3>
-                                    <span>CEO</span>
+                                    <h3>Person 1</h3>
+                                    <span>Title</span>
 
                                     <ul>
                                         <li>
@@ -43,11 +44,11 @@ class Team extends Component {
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-team-member">
-                                <img src={require('../../images/team-img2.jpg')} alt="team" />
+                                <img src={dscLogoProject} alt="team" />
 
                                 <div className="team-content">
-                                    <h3>Steven Smith</h3>
-                                    <span>Developer</span>
+                                    <h3>Person 2</h3>
+                                    <span>Title</span>
 
                                     <ul>
                                         <li>
@@ -77,11 +78,11 @@ class Team extends Component {
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-team-member">
-                                <img src={require('../../images/team-img3.jpg')} alt="team" />
+                                <img src={dscLogoProject} alt="team" />
 
                                 <div className="team-content">
-                                    <h3>David Luiz</h3>
-                                    <span>Designer</span>
+                                    <h3>Person 3</h3>
+                                    <span>Title</span>
 
                                     <ul>
                                         <li>
@@ -111,11 +112,11 @@ class Team extends Component {
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-team-member">
-                                <img src={require('../../images/team-img4.jpg')} alt="team" />
+                                <img src={dscLogoProject} alt="team" />
 
                                 <div className="team-content">
-                                    <h3>Park Tim</h3>
-                                    <span>SEO Expert</span>
+                                    <h3>Person 4</h3>
+                                    <span>Title</span>
 
                                     <ul>
                                         <li>
@@ -145,11 +146,11 @@ class Team extends Component {
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-team-member">
-                                <img src={require('../../images/team-img5.jpg')} alt="team" />
+                                <img src={dscLogoProject} alt="team" />
 
                                 <div className="team-content">
-                                    <h3>Doglas Costa</h3>
-                                    <span>Manager</span>
+                                    <h3>Person 5</h3>
+                                    <span>Title</span>
 
                                     <ul>
                                         <li>
@@ -179,11 +180,11 @@ class Team extends Component {
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-team-member">
-                                <img src={require('../../images/team-img6.jpg')} alt="team" />
+                                <img src={dscLogoProject} alt="team" />
 
                                 <div className="team-content">
-                                    <h3>Steven Smith</h3>
-                                    <span>Developer</span>
+                                    <h3>Person 6</h3>
+                                    <span>Title</span>
 
                                     <ul>
                                         <li>
@@ -213,11 +214,11 @@ class Team extends Component {
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-team-member">
-                                <img src={require('../../images/team-img7.jpg')} alt="team" />
+                                <img src={dscLogoProject} alt="team" />
 
                                 <div className="team-content">
-                                    <h3>David Luiz</h3>
-                                    <span>Designer</span>
+                                    <h3>Person 7</h3>
+                                    <span>Title</span>
 
                                     <ul>
                                         <li>
@@ -247,11 +248,11 @@ class Team extends Component {
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-team-member">
-                                <img src={require('../../images/team-img8.jpg')} alt="team" />
+                                <img src={dscLogoProject} alt="team" />
 
                                 <div className="team-content">
-                                    <h3>Park Tim</h3>
-                                    <span>SEO Expert</span>
+                                    <h3>Person 8</h3>
+                                    <span>Title</span>
 
                                     <ul>
                                         <li>

@@ -11,10 +11,11 @@ class Footer extends React.Component {
                             <div className="single-footer-widget">
                                 <Link href="#">
                                     <a className="logo">
-                                        <img src={dscLogo} alt="logo" />
+                                        <img src={dscLogo} alt="logo"/>
                                     </a>
                                 </Link>
-                                <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project individual.</p>
+                                <p>Plan ahead by day, week, or month, and see project status at a glance. Search and
+                                    filter to focus in on anything form a single project individual.</p>
 
                                 <ul className="social-list">
                                     <li>
@@ -153,8 +154,9 @@ class Footer extends React.Component {
                 <div className="copyright-area">
                     <div className="container">
                         <div className="row h-100 justify-content-center align-items-center">
-                            <div className="col-lg-6 col-md-6">
-                                <p>Developed with ❤ by DSC Team</p>
+                            <div className="col-lg-12 col-md-12"
+                                 style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                                <h6>Developed with ❤ by DSC VJIT Team</h6>
                             </div>
                         </div>
                     </div>

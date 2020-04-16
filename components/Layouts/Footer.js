@@ -7,15 +7,14 @@ class Footer extends React.Component {
             <footer className="footer-area ptb-100 pb-0 bg-image">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-6 col-md-6">
                             <div className="single-footer-widget">
                                 <Link href="#">
                                     <a className="logo">
                                         <img src={dscLogo} alt="logo"/>
                                     </a>
                                 </Link>
-                                <p>Plan ahead by day, week, or month, and see project status at a glance. Search and
-                                    filter to focus in on anything form a single project individual.</p>
+                                <p>Someone needs to write the content here</p>
 
                                 <ul className="social-list">
                                     <li>
@@ -42,112 +41,26 @@ class Footer extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-footer-widget pl-5">
-                                <h3>Company</h3>
+                        <div className="col-lg-6 col-md-6">
+                            <section className="subscribe-area">
+                                <div className="container">
+                                    <h2>Subscribe to newsletter</h2>
+                                    <div className="bar" style={{marginTop:'10px',marginBottom:'10px'}}/>
+                                    <p>Provide the newsletter content here</p>
 
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>About</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Carrers</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Awards</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>User Program</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a href="#">Locations</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Login</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
+                                    <form className="newsletter-form" data-toggle="validator">
+                                        <input type="email" className="form-control" placeholder="Your Email Address"
+                                               name="EMAIL" required={true} autoComplete="off"/>
+                                        <button className="btn btn-primary" type="submit">Subscribe</button>
+                                        <div id="validator-newsletter" className="form-result"></div>
+                                    </form>
+                                </div>
+                            </section>
+
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-footer-widget">
-                                <h3>Products</h3>
 
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>Integrations</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>API</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Pricing</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Documentation</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Sign Up</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Release Notes</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
 
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-footer-widget">
-                                <h3>Support</h3>
-
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>About</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Contact</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>FAQ</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Press</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
 

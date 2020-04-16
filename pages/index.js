@@ -11,6 +11,8 @@ import Blog from '../components/DigitalMarketing/Blog';
 import Feedback from '../components/DigitalMarketing/Feedback';
 import GetStarted from '../components/DigitalMarketing/GetStarted';
 import Platform from '../components/DigitalMarketing/Platform';
+import FaqContent from '../components/Faq/FaqContent';
+
 
 class Index extends React.Component {
     render() {
@@ -20,13 +22,10 @@ class Index extends React.Component {
                 <Banner/>
                 <Overview/>
                 <Services/>
-                {/*<Funfact />*/}
                 <Works/>
                 <AnalysisForm/>
-                <Blog/>
-                <Feedback/>
-                <GetStarted/>
-                <Platform/>
+                <FaqContent/>
+                {/*<Platform/>*/}
                 <Footer/>
             </React.Fragment>
         );

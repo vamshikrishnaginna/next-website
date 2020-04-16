@@ -272,6 +272,35 @@ button {
     }
 }
 
+.bar {
+    height: 4px;
+    width: 85px;
+    background: #4284f7;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: #ffffff;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+
 /* form-control */
 .form-group {
     margin-bottom: 15px;
@@ -2321,6 +2350,25 @@ Features CSS
     color: #ffffff;
     background: #FF8A73;
 }
+/*================================================
+Idea Form
+=================================================*/
+.idea-form {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.idea-form .idea-form-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+
 
 /*================================================
 Product New Features CSS
@@ -2400,9 +2448,8 @@ Product New Features CSS
 Services CSS
 =================================================*/
 .services-area {
-    padding-bottom: 70px;
+    padding-bottom: 60px;
 }
-
 .single-services {
     margin-bottom: 30px;
     background: #ffffff;
@@ -5033,7 +5080,7 @@ Analysis CSS
     top: 6px;
     width: 17px;
     height: 17px;
-    background: #13c4a1;
+    background: #32a950;
     -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }

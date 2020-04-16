@@ -53,24 +53,7 @@ class ContentTwo extends Component {
                             </div>
                         </div>
 
-                        {isOpenImage && (
-                            <Lightbox
-                                mainSrc={images[photoIndex]}
-                                nextSrc={images[(photoIndex + 1) % images.length]}
-                                prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-                                onCloseRequest={() => this.setState({isOpenImage: false})}
-                                onMovePrevRequest={() =>
-                                    this.setState({
-                                        photoIndex: (photoIndex + images.length - 1) % images.length,
-                                    })
-                                }
-                                onMoveNextRequest={() =>
-                                    this.setState({
-                                        photoIndex: (photoIndex + 1) % images.length,
-                                    })
-                                }
-                            />
-                        )}
+
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-project" style={{cursor: "pointer"}} onClick={()=>{console.log("opened the project1")}}>

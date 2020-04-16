@@ -12,15 +12,10 @@ class Content extends Component {
                                 <div className="icon">
                                     <i className="icofont-email"></i>
                                 </div>
-                                <h3>Mail Here</h3>
+                                <h3>Email</h3>
                                 <p>
                                     <Link href="#">
-                                        <a>admin@crake.com</a>
-                                    </Link>
-                                </p>
-                                <p>
-                                    <Link href="#">
-                                        <a>info@crake.com</a>
+                                        <a>dscvjit@gmail.com</a>
                                     </Link>
                                 </p>
                             </div>
@@ -31,8 +26,8 @@ class Content extends Component {
                                 <div className="icon">
                                     <i className="icofont-google-map"></i>
                                 </div>
-                                <h3>Visit Here</h3>
-                                <p>1660 Travis Street Miramar, FL 33025, California</p>
+                                <h3>Address</h3>
+                                <p>Aziz Nagar, VJIT</p>
                             </div>
                         </div>
 
@@ -41,15 +36,10 @@ class Content extends Component {
                                 <div className="icon">
                                     <i className="icofont-phone"></i>
                                 </div>
-                                <h3>Call Here</h3>
+                                <h3>Phone Number</h3>
                                 <p>
                                     <Link href="#">
-                                        <a>+123 456 7890</a>
-                                    </Link>
-                                </p>
-                                <p>
-                                    <Link href="#">
-                                        <a>+241 452 4526</a>
+                                        <a>+91 8328277518</a>
                                     </Link>
                                 </p>
                             </div>

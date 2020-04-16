@@ -7004,7 +7004,7 @@ Contact Us CSS
     background: #edf5ff;
     border-radius: 50%;
     font-size: 30px;
-    color: #13c4a1;
+    color: #4284f7;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -7024,7 +7024,7 @@ Contact Us CSS
 }
 
 .contact-info-box p a:hover {
-    color: #13c4a1;
+    color: #4284f7;
 }
 
 .contact-info-box:hover {
@@ -7034,7 +7034,7 @@ Contact Us CSS
 
 .contact-info-box:hover .icon {
     color: #ffffff;
-    background: #FF8A73;
+    background: #4284f7;
 }
 
 #map {

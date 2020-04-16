@@ -154,22 +154,7 @@ class Footer extends React.Component {
                     <div className="container">
                         <div className="row h-100 justify-content-center align-items-center">
                             <div className="col-lg-6 col-md-6">
-                                <p>Copyright @ 2019 Crake. All rights reserved</p>
-                            </div>
-                            
-                            <div className="col-lg-6 col-md-6">
-                                <ul>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Terms & Conditions</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Privacy Policy</a>
-                                        </Link>
-                                    </li>
-                                </ul>
+                                <p>Developed with ❤ by DSC Team</p>
                             </div>
                         </div>
                     </div>
